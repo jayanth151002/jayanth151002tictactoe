@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(94, 253, 94);
+}
+#head{
+    margin:30px auto;
+    font-size: 40px;
+    font-family: "Encode Sans SC";
+    color: indigo;
+    font-weight: 800;
+    text-align: center;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 300px;
+    max-height: 300px;
+    min-width:300px;
+    min-height: 300px;
+    border:3px solid indigo;
+    border-radius:10px;
+    margin:auto;
+    font-family: "Encode Sans SC";
+    background-color: rgb(81, 189, 252);
+    
+}
+.item{
+    font-size: 30px;
+    color:indigo;
+    padding: 20px;
+    border: 3px solid indigo;
+    margin:10px;
+    border-radius:10px;
+    background-color: pink;
+}
+#winorlose{
+    margin:20px auto;
+    text-align: center;
+    font-family: "Encode Sans SC";
+    font-size: 30px;
+    color: indigo;
+    font-weight: 600;
+}
+#click{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    margin:auto;
+    padding:10px;
+    font-size: 20px;
+    color:indigo;
+    border: 3px solid indigo;
+    border-radius:10px;
+    background-color: pink;
+    font-weight: bold;
+    visibility: hidden;
+}
